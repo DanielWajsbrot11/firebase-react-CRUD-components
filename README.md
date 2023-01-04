@@ -2,4 +2,4 @@
 npm create-react-app . //
 npm install firebase //
 npm install //
-npm start //
+npm start
