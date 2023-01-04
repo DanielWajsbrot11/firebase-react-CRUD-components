@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: dimgray;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-head{
+    border: 1px solid;
+    border-radius: .5rem;
+    padding: .75rem;
+    background-color: navy;
+    margin: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+    border-radius: .5rem;
+    row-gap: 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+.movie-form{
+    background-color:khaki;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit-movie{
+    background-color: violet;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.trash-icon{
+    border-radius: .5rem;
+    background-color: #969696;
+}
+.update-btn{
+    border-radius: .5rem;
+    margin-top: 1rem;
+    background-color: #969696;
+}
+.add-btn{
+    border-radius: .5rem;
+    margin-top: 1rem;
+    background-color: #969696;
 }
