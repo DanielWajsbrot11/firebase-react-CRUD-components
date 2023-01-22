@@ -1,6 +1,5 @@
 **INSTALLATION**
-npm create-react-app . //
-npm install firebase //
+git clone //
 npm install //
 npm start
 
