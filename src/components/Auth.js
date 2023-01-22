@@ -45,10 +45,10 @@ export default function Auth() {
           <input hidden={loading || currentUser} ref={emailRef} placeholder="Email" />
           <input hidden={loading || currentUser} ref={passwordRef} type="password" placeholder="Password" />
         </div>
-        <div>
-          <button disabled={ loading || currentUser } onClick={handleSignup}>Sign Up</button>
-          <button disabled={ loading || currentUser } onClick={handleLogin}>Log In</button>
-          <button disabled={ loading || !currentUser } onClick={handleLogout}>Log Out</button>
+        <div className='btn-container'>
+          <button disabled={ loading || currentUser } onClick={handleSignup} className="login-btn">Sign Up</button>
+          <button disabled={ loading || currentUser } onClick={handleLogin} className="login-btn">Log In</button>
+          <button disabled={ loading || !currentUser } onClick={handleLogout} className="login-btn">Log Out</button>
         </div>
       </div>
       <section>
